@@ -66,10 +66,6 @@
 
 ### **target 跟 currentTarget的差別**
 
-一樣先來看一下ＭＤＮ：
-
-The currentTarget read-only property of the Event interface identifies the current target for the event, as the event traverses the DOM. It always refers to the element to which the event handler has been attached, as opposed to Event.target, which identifies the element on which the event occurred and which may be its descendant.
-
 ### 先說一下常用的Event.target
 
 它可以接收事件，以及讓監聽者註冊到上面。DOM元素、document、window物件，是最常見的EventTarget物件。
@@ -98,9 +94,7 @@ EventListener(事件監聽者)或稱為事件處理函式，可以自動得到�
 
 ### Array.from()
 
-The **`Array.from()`**static method creates a new, shallow-copied `Array`instance from an iterable or array-like object.
-
-**`Array.from()`**方法會從類陣列（array-like）或是可迭代（iterable）物件建立一個新的 `Array`
+`Array.from()`方法會從類陣列（array-like）或是可迭代（iterable）物件建立一個新的 `Array`
  實體。
 
 💡 ***ArrayLike對象不能使用push、map等方法，但具有length的屬性，可以進行更迭的操作。***
@@ -148,11 +142,11 @@ Set the currentTime property:
 
 ---
 
-### <kbd>＆<audio>
+### `<kbd>`＆`<audio>`
 
-The <kbd> HTML element represents a span of inline text denoting textual user input from a keyboard, voice input, or any other text entry device.
+`The <kbd> HTML element represents a span of inline text denoting textual user input from a keyboard, voice input, or any other text entry device.`
 
-<kbd>是一個鍵盤輸入的元素，用於表示使用者輸入。他將產生一個行內元素
+`<kbd>是一個鍵盤輸入的元素，用於表示使用者輸入。他將產生一個行內元素`
 
 The **`Audio()`** constructor creates and returns a new `[HTMLAudioElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement)` which can be either attached to a document for the user to interact with and/or listen to, or can be used offscreen to manage and play audio.
 
